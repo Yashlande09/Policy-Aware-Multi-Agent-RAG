@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: aptino-claim-engine-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health

@@ -1,0 +1,181 @@
+{
+  "summary": {
+    "cases": 17,
+    "decision_accuracy": 1.0,
+    "citation_hit_rate": 1.0,
+    "validation_pass_rate": 1.0,
+    "abstentions": 3
+  },
+  "results": [
+    {
+      "case_id": "PUB-001",
+      "expected": "ADMISSIBLE_WITH_LIMITS",
+      "actual": "ADMISSIBLE_WITH_LIMITS",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": 153000.0
+    },
+    {
+      "case_id": "PUB-002",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "PUB-003",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "PUB-004",
+      "expected": "ADMISSIBLE_WITH_LIMITS",
+      "actual": "ADMISSIBLE_WITH_LIMITS",
+      "correct": true,
+      "confidence": 0.96,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": 100000.0
+    },
+    {
+      "case_id": "PUB-005",
+      "expected": "ADMISSIBLE",
+      "actual": "ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 3,
+      "payable_amount_inr": 65000.0
+    },
+    {
+      "case_id": "PUB-006",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "correct": true,
+      "confidence": 0.72,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "PUB-007",
+      "expected": "ADMISSIBLE_WITH_LIMITS",
+      "actual": "ADMISSIBLE_WITH_LIMITS",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": 716000.0
+    },
+    {
+      "case_id": "PUB-008",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "PUB-009",
+      "expected": "ADMISSIBLE",
+      "actual": "ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": 186800.0
+    },
+    {
+      "case_id": "PUB-010",
+      "expected": "ADMISSIBLE",
+      "actual": "ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 3,
+      "payable_amount_inr": 80000.0
+    },
+    {
+      "case_id": "PUB-011",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "correct": true,
+      "confidence": 0.72,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "PUB-012",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "CUSTOM-001",
+      "expected": "ADMISSIBLE",
+      "actual": "ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": 85500.0
+    },
+    {
+      "case_id": "CUSTOM-002",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "CUSTOM-003",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "correct": true,
+      "confidence": 0.9,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    },
+    {
+      "case_id": "CUSTOM-004",
+      "expected": "ADMISSIBLE_WITH_LIMITS",
+      "actual": "ADMISSIBLE_WITH_LIMITS",
+      "correct": true,
+      "confidence": 0.95,
+      "validation": "PASS",
+      "citations": 2,
+      "payable_amount_inr": 451000.0
+    },
+    {
+      "case_id": "CUSTOM-005",
+      "expected": "NOT_ADMISSIBLE",
+      "actual": "NOT_ADMISSIBLE",
+      "correct": true,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "citations": 1,
+      "payable_amount_inr": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "case_id": "CUSTOM-001",
+    "policy_id": "USGIC-CSC-2017-2018",
+    "policy_start_date": "2024-01-01",
+    "claim_date": "2026-10-01",
+    "sum_insured_inr": 500000,
+    "continuous_coverage_months": 36,
+    "prior_insurer_continuous_years": 0,
+    "patient": {
+      "age": 45
+    },
+    "hospital": {
+      "name": "General Hospital",
+      "network_provider": true
+    },
+    "treatment": {
+      "type": "inpatient",
+      "admission_hours": 48,
+      "diagnosis": "Acute infection",
+      "procedure": "Hospital treatment",
+      "pre_existing": false,
+      "experimental": false
+    },
+    "expenses_inr": {
+      "room": 8000,
+      "doctor_fees": 20000,
+      "medicines_diagnostics": 50000,
+      "pre_hospitalization": 3000,
+      "post_hospitalization": 4000,
+      "ambulance": 500
+    },
+    "documents": [
+      "claim_form",
+      "discharge_summary",
+      "itemized_bill"
+    ],
+    "task": "Assess ordinary inpatient claim."
+  },
+  {
+    "case_id": "CUSTOM-002",
+    "policy_id": "USGIC-CSC-2017-2018",
+    "policy_start_date": "2026-01-01",
+    "claim_date": "2026-01-10",
+    "sum_insured_inr": 500000,
+    "continuous_coverage_months": 0,
+    "prior_insurer_continuous_years": 0,
+    "patient": {
+      "age": 30
+    },
+    "hospital": {
+      "name": "General Hospital",
+      "network_provider": true
+    },
+    "treatment": {
+      "type": "inpatient",
+      "admission_hours": 48,
+      "diagnosis": "Acute infection",
+      "procedure": "Hospital treatment",
+      "pre_existing": false,
+      "experimental": false
+    },
+    "expenses_inr": {
+      "room": 5000,
+      "doctor_fees": 10000,
+      "medicines_diagnostics": 20000,
+      "pre_hospitalization": 0,
+      "post_hospitalization": 0,
+      "ambulance": 0
+    },
+    "documents": [
+      "claim_form"
+    ],
+    "task": "Assess initial waiting period."
+  },
+  {
+    "case_id": "CUSTOM-003",
+    "policy_id": "USGIC-CSC-2017-2018",
+    "policy_start_date": "2024-01-01",
+    "claim_date": "2026-10-02",
+    "sum_insured_inr": 500000,
+    "continuous_coverage_months": 36,
+    "prior_insurer_continuous_years": 0,
+    "patient": {
+      "age": 60
+    },
+    "hospital": {
+      "name": "HomeCare",
+      "network_provider": false
+    },
+    "treatment": {
+      "type": "domiciliary",
+      "admission_hours": 0,
+      "diagnosis": "Condition requiring home treatment",
+      "procedure": "Domiciliary treatment",
+      "pre_existing": false,
+      "hospital_room_unavailable": false,
+      "patient_cannot_be_moved": false,
+      "experimental": false
+    },
+    "expenses_inr": {
+      "room": 0,
+      "doctor_fees": 20000,
+      "medicines_diagnostics": 30000,
+      "pre_hospitalization": 0,
+      "post_hospitalization": 0,
+      "ambulance": 0
+    },
+    "documents": [
+      "claim_form",
+      "doctor_certificate"
+    ],
+    "task": "Assess domiciliary eligibility."
+  },
+  {
+    "case_id": "CUSTOM-004",
+    "policy_id": "USGIC-CSC-2017-2018",
+    "policy_start_date": "2024-01-01",
+    "claim_date": "2026-10-03",
+    "sum_insured_inr": 1000000,
+    "continuous_coverage_months": 36,
+    "prior_insurer_continuous_years": 0,
+    "patient": {
+      "age": 44
+    },
+    "hospital": {
+      "name": "Specialist Hospital",
+      "network_provider": true
+    },
+    "treatment": {
+      "type": "inpatient",
+      "admission_hours": 96,
+      "diagnosis": "Cancer",
+      "procedure": "Treatment",
+      "pre_existing": false,
+      "experimental": false
+    },
+    "expenses_inr": {
+      "room": 60000,
+      "doctor_fees": 100000,
+      "medicines_diagnostics": 300000,
+      "pre_hospitalization": 5000,
+      "post_hospitalization": 5000,
+      "ambulance": 1000
+    },
+    "documents": [
+      "claim_form",
+      "histopathology_report",
+      "discharge_summary",
+      "itemized_bill"
+    ],
+    "task": "Apply category limits."
+  },
+  {
+    "case_id": "CUSTOM-005",
+    "policy_id": "USGIC-CSC-2017-2018",
+    "policy_start_date": "2024-01-01",
+    "claim_date": "2026-10-04",
+    "sum_insured_inr": 500000,
+    "continuous_coverage_months": 36,
+    "prior_insurer_continuous_years": 0,
+    "patient": {
+      "age": 40
+    },
+    "hospital": {
+      "name": "Research Centre",
+      "network_provider": true
+    },
+    "treatment": {
+      "type": "inpatient",
+      "admission_hours": 48,
+      "diagnosis": "Experimental condition",
+      "procedure": "Experimental therapy",
+      "pre_existing": false,
+      "experimental": true
+    },
+    "expenses_inr": {
+      "room": 5000,
+      "doctor_fees": 10000,
+      "medicines_diagnostics": 30000,
+      "pre_hospitalization": 0,
+      "post_hospitalization": 0,
+      "ambulance": 0
+    },
+    "documents": [
+      "claim_form",
+      "discharge_summary"
+    ],
+    "task": "Assess experimental treatment exclusion."
+  }
+]
